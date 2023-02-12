@@ -8,12 +8,11 @@
 
 // var power = 1;
 // for(var i = 0; i < userSecondNumber ; i++){
-//     power = power * userFirstNumber  
+//     power = power * userFirstNumber
 // }
 // alert('Power: '+power);
 
 //////////power with while loop//////////
-
 
 // var userFirstNumber = Number(prompt('Enter The First Number:',1))
 // var userSecondNumber = Number(prompt("Enter The Second Number:", 1));
@@ -24,22 +23,27 @@
 // while(i < userSecondNumber){
 //     power = power * userFirstNumber
 //     i++
-      
+
 // }
-// alert('Power: '+power); 
-
-
+// alert('Power: '+power);
 
 ///////power with doWhile////////
 
-var userFirstNumber = Number(prompt('Enter The First Number:',1))
-var userSecondNumber = Number(prompt("Enter The Second Number:", 1));
+// var userFirstNumber = Number(prompt('Enter The First Number:',1))
+// var userSecondNumber = Number(prompt("Enter The Second Number:", 1));
 
-var power = 1;
+// var power = 1;
 
-var i = 0
-do{
-power = power * userFirstNumber;
-i++
-}while (i < userSecondNumber)
-alert('Power: '+power); 
+// var i = 0
+// do{
+// power = power * userFirstNumber;
+// i++
+// }while (i < userSecondNumber)
+// alert('Power: '+power);
+
+//////Arrays////
+
+var students = ["Alen", "Jon", "Max", "Mana"];
+console.log(students);
+console.log(students.length);
+console.log(students[2]);
