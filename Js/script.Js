@@ -43,7 +43,24 @@
 
 //////Arrays////
 
-var students = ["Alen", "Jon", "Max", "Mana"];
-console.log(students);
-console.log(students.length);
-console.log(students[2]);
+// var students = ["Alen", "Jon", "Max", "Mana"];
+// console.log(students);
+// console.log(students.length);
+// console.log(students[2]);
+
+////Methods of Arrays//////
+/////////push/////////
+var scores = [11, 19, 20, 16, 17];
+console.log(scores);
+//  scores[5] = 13;
+scores.push(14);
+console.log(scores);
+/////////pop////////
+scores.pop();
+console.log(scores);
+
+////shift & unshift////
+scores.shift();
+console.log(scores);
+scores.unshift(18);
+console.log(scores);
