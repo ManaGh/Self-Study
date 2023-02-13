@@ -49,18 +49,40 @@
 // console.log(students[2]);
 
 ////Methods of Arrays//////
-/////////push/////////
-var scores = [11, 19, 20, 16, 17];
-console.log(scores);
-//  scores[5] = 13;
-scores.push(14);
-console.log(scores);
-/////////pop////////
-scores.pop();
-console.log(scores);
+// /////////push/////////
+// var scores = [11, 19, 20, 16, 17];
+// console.log(scores);
+// //  scores[5] = 13;
+// scores.push(14);
+// console.log(scores);
+// /////////pop////////
+// scores.pop();
+// console.log(scores);
 
-////shift & unshift////
-scores.shift();
-console.log(scores);
-scores.unshift(18);
-console.log(scores);
+// ////shift & unshift////
+// scores.shift();
+// console.log(scores);
+// scores.unshift(18);
+// console.log(scores);
+
+////How to define & work with Objects?////
+
+// var users = ["Max", "Alen", "Jon", "Halden"];
+// var user = { 
+//     name: "Mana",
+//     family: "Ghab", 
+//     age: 18,
+//     hairColor: "black" 
+// };
+// console.log(user);
+// console.log(user["age"]);
+// console.log(user.age);
+// console.log(user.hairColor);
+
+var users = [
+    {id: 1, name: "Mana", family: "Gha", age: 12},
+    {id: 2, name: "Bob", family: "Abi", age: 27}
+];
+console.log(users);
+console.log(users[0]);
+console.log(users[0].age);
